@@ -8,8 +8,8 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs('uploads', exist_ok=True)
 
 # --- CONFIGURATION ---
-API_KEY = "MB-cgV-12XlEa1MpFJ5s60RNRlb0xFUloShDoD3vuPP8"  # <--- Paste your API Key
-PROJECT_ID = "d629ddf7-4139-4522-9a1a-56ddbac9dec5"  # <--- Paste your Project ID
+API_KEY = "IBM API KEY"  # <--- Paste your API Key
+PROJECT_ID = "PROJECT ID"  # <--- Paste your Project ID
 # ---------------------
 
 def get_watsonx_insight(summary):
